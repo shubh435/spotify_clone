@@ -13,6 +13,10 @@ const Home: NextPage = () => {
           content="Spotify is all the music you’ll ever need."
         ></meta>
       </Head>
+
+      <div className="main">
+        
+      </div>
     </div>
   )
 }
