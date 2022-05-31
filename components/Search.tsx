@@ -22,8 +22,8 @@ const Search = ({ search, setsearch }: searchProps) => {
         className="border-none bg-[#1a1a1a] text-xs text-white placeholder-[#fafafa]
         outline-none focus:ring-0 lg:w-full"
       />
-      <div className="flex items-center divide-x-2 divide-dotted divide-[#333] pl-4">
-        <div className="space-z-2 flex pr-5">
+      <section className="flex items-center divide-x-2 divide-dotted divide-[#333] pl-4">
+        <div className="flex space-x-2 pr-5">
           <button className="tag">Minimal</button>
           <button className="tag">House</button>
           <button className="tag">Minimal</button>
@@ -33,7 +33,7 @@ const Search = ({ search, setsearch }: searchProps) => {
           <MdOutlineShortText className="animate-pulse text-2xl" />
           <span className="text-sm  font-medium">Filter</span>
         </div>
-      </div>
+      </section>
     </article>
   )
 }
