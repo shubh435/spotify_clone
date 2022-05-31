@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .sidebarIcon {
+    @apply h-6 cursor-pointer text-[#808080];
+  }
+  .tag {
+    @apply rounded-xl border-2 border-[#484848] py-1.5  px-3 text-xs font-bold text-[#cecece];
+  }
+}
