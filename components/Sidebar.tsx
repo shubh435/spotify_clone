@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 import { FaMicrophoneAlt } from 'react-icons/fa'
 import { RiCompassFill } from 'react-icons/ri'
 import { HiHome, HiChartBar, HiClock, HiDotsHorizontal } from 'react-icons/hi'
@@ -18,7 +17,7 @@ const Sidebar = () => {
         height={56}
         objectFit="contain"
       />
-      <div className="flex flex-col  space-y-8 items-center">
+      <div className="flex flex-col  items-center space-y-8">
         <HiHome className="sidebarIcon  text-2xl text-white opacity-[0.85]" />
         <RiCompassFill className="sidebarIcon text-2xl" />
 
