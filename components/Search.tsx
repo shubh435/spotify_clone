@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { MdOutlineShortText } from 'react-icons/md'
 interface searchProps {
-  search: string
-  setsearch: Function
+  search: string;
+ setsearch: React.Dispatch<React.SetStateAction<string>>
 }
 const Search = ({ search, setsearch }: searchProps) => {
   return (
