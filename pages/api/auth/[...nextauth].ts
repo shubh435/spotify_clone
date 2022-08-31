@@ -19,7 +19,7 @@ async function refreshAccessToken(token: any) {
       method: 'POST',
     })
     const refreshedTokens = await response.json()
-    // console.log({response})
+    console.log({response})
 
     if (!response.ok) {
       throw refreshedTokens
@@ -79,7 +79,6 @@ export default NextAuth({
       session.user = token.user
       session.accessToken = token.accessToken
       session.error = token.error
-
       return session
     },
   },
