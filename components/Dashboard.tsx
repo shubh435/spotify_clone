@@ -22,6 +22,7 @@ const Dashboard = () => {
     setShowPlayer(true)
     console.log({ "token": process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_ID ,"secret":process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET})
   }, [])
+  console.log({ "token": process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_ID ,"secret":process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET})
 
   const chooseTrack = (track: any) => {
     setPlayingTrack(track)
